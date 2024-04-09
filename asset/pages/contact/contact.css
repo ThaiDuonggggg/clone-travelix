@@ -1,0 +1,147 @@
+.home_background {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/asset/images/contact/contact_bg.jpg');
+    padding-top: 46%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.home_title h1:nth-child(1) {
+    font-size: 7.2rem;
+    text-shadow: 1px 1px RGBA( 211, 211, 211, 1);
+}
+
+/*Contact*/
+.contact {
+    margin-top: 105px;
+    padding-bottom: unset;
+}
+
+.contact_form-title h2 {
+    text-align: center;
+}
+
+/*About*/
+
+.about {
+    position: relative;
+    padding-top: 105px;
+    padding-bottom: 146px;
+    z-index: 1;
+}
+
+.about_content_body {
+    position: relative;
+}
+
+.about_description {
+    padding-top: 40px;
+    margin-bottom: 16px;
+}
+
+.about_description p{
+    font-size: 1.4rem;
+    color: var(--text-gray);
+    font-weight: 600;
+    line-height: 2.29;
+}
+
+.about_logo a{
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--text-black);
+    text-transform: uppercase;
+}
+
+.about_logo a img {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-right: 8px;
+}
+
+.about_logo_link {
+    display: block;
+}
+
+.about_image img {
+    position: absolute;
+    top: 65px;
+}
+
+.about_social_list {
+    margin-top: 40px;
+    display: flex;
+}
+
+.about_social_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47px;
+    height: 47px;
+    list-style: none;
+    border: 2px solid var(--yellow);
+    border-radius: 50%;  
+    margin-right: 15px;
+    transition: all 200ms ease;
+    cursor: pointer;
+}
+
+.about_social_item:last-child {
+    margin-right: 0px;
+}
+
+.about_social_item:hover {
+    background-color: var(--yellow);
+}
+
+.about_social_item:hover a{
+    color: var(--white);
+}
+
+.about_social-link {
+    display: block;
+    color: var(--yellow);
+    font-size: 2rem;
+}
+
+.about_info {
+    padding-top: 104px;
+}
+
+.contact_info_item {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.about_contact_body-img {
+    margin-right: 10px;
+}
+.about_contact_body-img img {
+    width: 20px;
+    height: 20px;
+    vertical-align: baseline;
+}
+
+.about_contact_github a,
+.about_contact_info {
+    font-size: 1.4rem;
+    color: #2E2E2E;
+    line-height: 2.14;
+    margin-top: -4px;
+    transition: all 200ms ease;
+    cursor: pointer;
+}
+
+.about_contact_github a:hover,
+.about_contact_info:hover {
+    color: var(--yellow);
+}
+
+.about_contact_github a:hover .icon_info {
+    color: black;
+}

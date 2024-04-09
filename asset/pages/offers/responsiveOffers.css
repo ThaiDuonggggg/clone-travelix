@@ -1,0 +1,63 @@
+/*Mobile & Tablet*/
+@media (max-width: 1023px) {
+    .offer_container_background {
+        position: unset;
+        padding-top: 50%;
+    }
+}
+
+
+/*Mobile*/
+@media (max-width: 739px) {
+    .home_title_mobile h1:nth-child(1) {
+        font-size: 2.5rem;
+    }
+
+
+    .form_checked_item {
+        width: 49%;
+    }
+
+    .offer__item--description {
+        font-size: 1.3rem;
+    }
+
+    .offer_review_evaluate-number {
+        width: 56px;
+        height: 47px;
+        font-size: 2.4rem;
+        line-height: 47px;
+    }
+
+    .offer_review_evaluate {
+        font-size: 1.1rem;
+    }
+    .search_extras_item {
+        width: 37%;
+        margin-bottom: 20px;
+    }
+}
+
+
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    .home_title h1:nth-child(1) {
+        font-size: 6rem;
+    }
+
+    .offer__container__item--content {
+        padding-left: unset;
+        margin-top: 20px;
+    }
+    .btn_search {
+        justify-content: flex-start;
+        transform: unset;
+    }
+
+}
+
+
+@media (max-width: 479px) {
+
+}

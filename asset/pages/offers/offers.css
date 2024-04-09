@@ -1,0 +1,290 @@
+/*Custom*/
+
+.search_check .btn_submit{
+    width: unset;
+    padding: 0 46px;
+    text-transform: uppercase;
+}
+
+.offer_container_item .btn_submit {
+    width: unset;
+    font-size: 1.3rem;
+    padding: 0 25px;
+    text-transform: uppercase;
+}
+
+.item_rating .icon_rating, .icon_rating_package, .icon_rating_offers {
+    font-size: 1.4rem;
+}
+/*Custom*/
+.fill_height {
+    padding-top: 57px;
+    padding-bottom: 72px;
+}
+
+.search_check,
+.form_search {
+    height: auto;
+}
+
+.home_title h1:nth-child(1) {
+    font-size: 7.2rem;
+}
+
+.home_background {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url('/asset/images/about/bg_about.jpg');
+    padding-top: 46%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.extras {
+    width: 100%;
+    margin-top: 42px;
+}
+
+.search_extras {
+    list-style: none;
+    width: 100%;
+}
+
+.search_extras_item {
+    display: inline-block;
+    width: 20%;
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+.search_extras_item input[type="checkbox"]:checked::after {
+    content: "";
+    position: relative;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: var(--yellow);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search_extras_item input {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background-color: var(--white);
+    margin-top: 2px;
+    float: left;
+}
+
+.search_extras_item label {
+    display: block;
+    font-size: 1.2rem;
+    color: var(--white);
+    font-weight: 500;
+    padding-left: 31px;
+    cursor: pointer;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+}
+.clearfix::before {
+    content: "";
+    clear: both;
+}
+
+/*Options*/
+
+.more_options {
+    width: 100%;
+    margin-top: 28px;
+}
+
+.more_options_trigger {
+    position: relative;
+}
+
+.more_options_trigger a {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--white);
+    text-transform: uppercase;
+    padding-left: 18px;
+}
+
+.more_options_trigger a::before {
+    content: "+";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    color: var(--white);
+    display: block;
+}
+
+.more_options_trigger.active a::before {
+    opacity: 0;
+}
+
+.more_options_trigger a::after {
+    content: "-";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    color: var(--white);
+    opacity: 0;
+}
+
+.more_options_trigger.active a::after {
+    opacity: 1;
+}
+
+.more_options_list {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 200ms ease;
+}
+
+.more_options_item {
+    width: 100%;
+}
+
+/*Offers*/
+.offers {
+    background-color: var(--white);
+}
+
+
+.offers_container_sorting-item {
+    display: inline-block;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 16px;
+    margin-bottom: 20px;
+    padding: 16px 20px;
+    border: 2px solid rgb(218, 218, 218);
+    cursor: pointer;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.offers_container_sorting-item i {
+    padding-left: 55px;
+    color: var(--text-gray);
+}
+
+.offers_container_sorting-item:hover .sub_nav_offers {
+    display: block;
+}
+
+.sub_nav_offers {
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 100%;
+    left: 0;
+    list-style: none;
+    background-color: var(--white);
+    box-shadow: 0 15px 25px rgb(63 78 100 / 15%);
+    z-index: 1;
+    animation: fadeIn 0.5s ease;
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(25px);
+        opacity: 0;
+    } to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.sub_nav_offers::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 13px;
+    background-color: transparent;
+}
+
+.sub_nav_offers_item {
+    padding: 0px 15px;
+}
+
+.sub_nav_offers_item:hover {
+    opacity: 0.7;
+}
+
+.sub_nav_offers_item span {
+    display: block;
+    padding: 11px 0;
+    color: #51545f;
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+}
+
+/*Offer reviews*/
+.offer__container__item--content {
+    position: relative;
+}
+
+.offer_reviews {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.offer_review_evaluate {
+    margin-right: 7px;
+}
+
+.offer_review_evaluate span {
+    display: block;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.offer_review_evaluate span:first-child {
+    color: var(--text-black);
+    font-weight: 700;
+}
+
+.offer_review_evaluate span:last-child {
+    color: var(--text-gray);
+    font-weight: 600;
+    margin-top: 1px;
+}
+
+.offer_review_evaluate-number {
+    width: 62px;
+    height: 57px;
+    line-height: 57px;
+    border-radius: 50%;
+    font-size: 2.8rem;
+    font-weight: 700; 
+    text-align: center;
+    color: var(--white);
+    background-color: var(--yellow);
+    vertical-align: middle;
+}

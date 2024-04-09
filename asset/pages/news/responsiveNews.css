@@ -1,0 +1,52 @@
+/*Mobile & Tablet*/
+@media (max-width: 1023px) {
+    
+}
+
+
+/*Mobile*/
+@media (max-width: 739px) {
+    .blog_container_destinations,
+    .sidebar_search,
+    .sidebar_archives,
+    .sidebar_categories,
+    .sidebar_latest-posts,
+    .sidebar_Instagram {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .blog_container_destinations-day {
+        top: 15px;
+        left: 15px;
+        width: 85px;
+        height: 55px;
+    }
+
+    .blog_container_destinations-cmt ul li a {
+        font-size: 1rem;
+    }
+    .blog_container_destinations-link a p {
+        font-size: 2.1rem;
+        line-height: 1.5;
+    }
+    .blog_container_destinations-description p {
+        font-size: 1.3rem;
+    }
+
+    .sidebar_submit {
+        right: 12px;
+    }
+}
+
+
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1023px) {
+
+
+}
+
+
+@media (max-width: 479px) {
+
+}

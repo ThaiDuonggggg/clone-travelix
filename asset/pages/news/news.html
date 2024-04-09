@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/asset/images/other/logo_title.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/asset/css/styles.css">
+    <link rel="stylesheet" href="./news.css">
+    <link rel="stylesheet" href="/asset/css/base.css">
+    <link rel="stylesheet" href="/asset/css/grid.css">
+    <link rel="stylesheet" href="/asset/css/responsive.css">
+    <link rel="stylesheet" href="./responsiveNews.css">
+    <link rel="stylesheet" href="/asset/fonts/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.min.css">
+    
+      <!-- Fancybox and Jquery CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <title>Travelix - Blog</title>
+</head>
+
+<body>
+
+    <div id="main">
+        <!-- Header -->
+        <header class="header">
+            <!-- Header_top -->
+            <div class="header_top_nav m-12 c-0">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col c-12">
+                            <div class="header_top">
+                                <div class="header_phone">
+                                    +84 123 456 78
+                                </div>
+                                <div class="social">
+                                    <ul class="social_list">
+                                        <li class="social_item">
+                                            <a href="#" class="social_list-link"><i
+                                                    class="fa-brands fa-pinterest social_list-icon"></i></a>
+                                        </li>
+                                        <li class="social_item">
+                                            <a href="#" class="social_list-link"><i
+                                                    class="fa-brands fa-facebook-f social_list-icon"></i></a>
+                                        </li>
+                                        <li class="social_item">
+                                            <a href="#" class="social_list-link"><i
+                                                    class="fa-brands fa-twitter social_list-icon"></i></a>
+                                        </li>
+                                        <li class="social_item">
+                                            <a href="#" class="social_list-link"><i
+                                                    class="fa-brands fa-dribbble social_list-icon"></i></a>
+                                        </li>
+                                        <li class="social_item">
+                                            <a href="#" class="social_list-link"><i
+                                                    class="fa-brands fa-behance social_list-icon"></i></a>
+                                        </li>
+                                        <li class="social_item">
+                                            <a href="#" class="social_list-link"><i
+                                                    class="fa-brands fa-linkedin-in social_list-icon"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header_login">
+                                    <p class="no-login-text">Login</p>
+                                    <p class="no-login-register">Register</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header_top -->
+
+            <!-- Header_nav_main -->
+            <div class="header_nav_main">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col c-12 main_nav_col d-flex a-items">
+                            <div class="header_nav">
+                                <div class="header_nav_logo">
+                                    <a href="#" class="logo_link">
+                                        <img src="/asset/images/other/logo.png" alt="" class="header_nav_logo-img">
+                                        Travelix
+                                    </a>
+                                </div>
+                                <div class="header_navbar">
+                                    <ul class="header_navbar-list">
+                                        <li class="header_navbar-item">
+                                            <a href="/index.html" class="header_navbar-link">home</a>
+                                        </li>
+                                        <li class="header_navbar-item">
+                                            <a href="/asset/pages/aboutus/aboutus.html" class="header_navbar-link">about
+                                                us</a>
+                                        </li>
+                                        <li class="header_navbar-item">
+                                            <a href="/asset/pages/offers/offers.html"
+                                                class="header_navbar-link">offers</a>
+                                        </li>
+                                        <li class="header_navbar-item">
+                                            <a href="#" class="header_navbar-link">news</a>
+                                        </li>
+                                        <li class="header_navbar-item">
+                                            <a href="/asset/pages/contact/contact.html"
+                                                class="header_navbar-link">contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="header_navbar-search">
+                                    <svg class="icon_glass" version="1.1" id="Layer_1"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        x="0px" y="0px" width="17px" height="17px" viewBox="0 0 512 512"
+                                        enable-background="new 0 0 512 512" xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <path class="mag_glass" fill="#FFFFFF"
+                                                        d="M78.438,216.78c0,57.906,22.55,112.343,63.493,153.287c40.945,40.944,95.383,63.494,153.287,63.494
+                                                    s112.344-22.55,153.287-63.494C489.451,329.123,512,274.686,512,216.78c0-57.904-22.549-112.342-63.494-153.286
+                                                    C407.563,22.549,353.124,0,295.219,0c-57.904,0-112.342,22.549-153.287,63.494C100.988,104.438,78.439,158.876,78.438,216.78z
+                                                    M119.804,216.78c0-96.725,78.69-175.416,175.415-175.416s175.418,78.691,175.418,175.416
+                                                    c0,96.725-78.691,175.416-175.416,175.416C198.495,392.195,119.804,313.505,119.804,216.78z"></path>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path class="mag_glass" fill="#FFFFFF" d="M6.057,505.942c4.038,4.039,9.332,6.058,14.625,6.058s10.587-2.019,14.625-6.058L171.268,369.98
+                                                    c8.076-8.076,8.076-21.172,0-29.248c-8.076-8.078-21.172-8.078-29.249,0L6.057,476.693
+                                                    C-2.019,484.77-2.019,497.865,6.057,505.942z"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+
+                                <div class="header_input-search">
+                                    <input type="text" placeholder="Enter what you're looking for..."
+                                        class="input_search_header">
+                                </div>
+
+                                <!-- header bars tablet & mobile  -->
+                                <div class="header_navbar_bars-mobile">
+                                    <i class="fa-solid fa-bars"></i>
+                                </div>
+                                <!-- header bars tablet & mobile  -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header menu tablet & mobile -->
+            <div class="header_menu">
+                <!-- Overlay Header tablet-mobile -->
+                <div class="header_menu_overlay"></div>
+                <div class="header__menu__body--content">
+                    <ul class="header__menu__body-list">
+                        <li class="header__menu__body-item">
+                            <a href="/index.html" class="header__menu__body-link">Home</a>
+                        </li>
+                        <li class="header__menu__body-item">
+                            <a href="/asset/pages/aboutus/aboutus.html" class="header__menu__body-link">About</a>
+                        </li>
+                        <li class="header__menu__body-item">
+                            <a href="/asset/pages/offers/offers.html" class="header__menu__body-link">Offers</a>
+                        </li>
+                        <li class="header__menu__body-item">
+                            <a href="#" class="header__menu__body-link">News</a>
+                        </li>
+                        <li class="header__menu__body-item">
+                            <a href="/asset/pages/contact/contact.html" class="header__menu__body-link">Contact</a>
+                        </li>
+                    </ul>
+                    <i class="fa-solid fa-xmark header__menu__body-close-icon"></i>
+                </div>
+            </div>
+
+            <!-- scroll Top -->
+            <div class="scroll-top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+
+        </header>
+
+        <!-- Slider -->
+        <div class="home">
+            <div class="home_background"></div>
+            <div class="home_title home_title_mobile">
+                <h1>The Blog</h1>
+            </div>
+        </div>
+
+        <!-- Blog -->
+        <div class="blog">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-8 m-12 c-12">
+                        <div class="blog_container_destinations">
+                            <div class="blog_container_destinations_container">
+                                <div class="blog_container_destinations-img">
+                                    <img src="/asset/images/News/blog_1.jpg" alt="">
+                                </div>
+                                <div class="blog_container_destinations-day">
+                                    <span>01</span>
+                                    <span>Dec, 2017</span>
+                                </div>
+                                <div class="blog_container_destinations-cmt">
+                                    <ul>
+                                        <li><a href="#">by Lore Papp</a></li>
+                                        <li><a href="#">Uncategorized</a></li>
+                                        <li><a href="#">3 Comments</a></li>
+                                    </ul>
+                                </div>
+                                <div class="blog_container_destinations-link">
+                                    <a href="#">
+                                        <p>Try these new dream destinations</p>
+                                    </a>
+                                </div>
+                                <div class="blog_container_destinations-description">
+                                    <p>
+                                        Aenean in lacus ligula. Phasellus euismod gravida eros. Aenean nec ipsum
+                                        aliquet, pharetra magna id, interdum sapien. Etiam id lorem eu nisl
+                                        pellentesque semper. Nullam tincidunt metus placerat, suscipit leo ut,
+                                        tempus nulla. Fusce at eleifend tellus. Ut eleifend dui nunc, non
+                                        fermentum qua.
+                                    </p>
+                                </div>
+                                <div class="blog_post_link">
+                                    <a href="#" class="blog_container_destinations--read-more">
+                                        read more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog_container_destinations">
+                            <div class="blog_container_destinations_container">
+                                <div class="blog_container_destinations-img">
+                                    <img src="/asset/images/News/blog_2.jpg" alt="">
+                                </div>
+                                <div class="blog_container_destinations-day">
+                                    <span>01</span>
+                                    <span>Dec, 2017</span>
+                                </div>
+                                <div class="blog_container_destinations-cmt">
+                                    <ul>
+                                        <li><a href="#">by Lore Papp</a></li>
+                                        <li><a href="#">Uncategorized</a></li>
+                                        <li><a href="#">3 Comments</a></li>
+                                    </ul>
+                                </div>
+                                <div class="blog_container_destinations-link">
+                                    <a href="#">
+                                        <p>Try these new dream destinations</p>
+                                    </a>
+                                </div>
+                                <div class="blog_container_destinations-description">
+                                    <p>
+                                        Aenean in lacus ligula. Phasellus euismod gravida eros. Aenean nec ipsum
+                                        aliquet, pharetra magna id, interdum sapien. Etiam id lorem eu nisl
+                                        pellentesque semper. Nullam tincidunt metus placerat, suscipit leo ut,
+                                        tempus nulla. Fusce at eleifend tellus. Ut eleifend dui nunc, non
+                                        fermentum qua.
+                                    </p>
+                                </div>
+                                <div class="blog_post_link">
+                                    <a href="#" class="blog_container_destinations--read-more">
+                                        read more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog_container_destinations">
+                            <div class="blog_container_destinations_container">
+                                <div class="blog_container_destinations-img">
+                                    <img src="/asset/images/News/blog_3.jpg" alt="">
+                                </div>
+                                <div class="blog_container_destinations-day">
+                                    <span>01</span>
+                                    <span>Dec, 2017</span>
+                                </div>
+                                <div class="blog_container_destinations-cmt">
+                                    <ul>
+                                        <li><a href="#">by Lore Papp</a></li>
+                                        <li><a href="#">Uncategorized</a></li>
+                                        <li><a href="#">3 Comments</a></li>
+                                    </ul>
+                                </div>
+                                <div class="blog_container_destinations-link">
+                                    <a href="#">
+                                        <p>Try these new dream destinations</p>
+                                    </a>
+                                </div>
+                                <div class="blog_container_destinations-description">
+                                    <p>
+                                        Aenean in lacus ligula. Phasellus euismod gravida eros. Aenean nec ipsum
+                                        aliquet, pharetra magna id, interdum sapien. Etiam id lorem eu nisl
+                                        pellentesque semper. Nullam tincidunt metus placerat, suscipit leo ut,
+                                        tempus nulla. Fusce at eleifend tellus. Ut eleifend dui nunc, non
+                                        fermentum qua.
+                                    </p>
+                                </div>
+                                <div class="blog_post_link">
+                                    <a href="#" class="blog_container_destinations--read-more">
+                                        read more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <!-- Sidebar Search -->
+                        <div class="sidebar_search">
+                            <form action="#">
+                                <input type="text" placeholder="Enter your text ..." class="sidebar_search-input">
+                                <button type="submit" class="sidebar_submit">
+                                    <svg class="icon_glass" version="1.1" id="Layer_1"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        x="0px" y="0px" width="17px" height="17px" viewBox="0 0 512 512"
+                                        enable-background="new 0 0 512 512" xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <path class="sidebar_submit_glass" fill="#FFFFFF"
+                                                        d="M78.438,216.78c0,57.906,22.55,112.343,63.493,153.287c40.945,40.944,95.383,63.494,153.287,63.494
+                                                    s112.344-22.55,153.287-63.494C489.451,329.123,512,274.686,512,216.78c0-57.904-22.549-112.342-63.494-153.286
+                                                    C407.563,22.549,353.124,0,295.219,0c-57.904,0-112.342,22.549-153.287,63.494C100.988,104.438,78.439,158.876,78.438,216.78z
+                                                    M119.804,216.78c0-96.725,78.69-175.416,175.415-175.416s175.418,78.691,175.418,175.416
+                                                    c0,96.725-78.691,175.416-175.416,175.416C198.495,392.195,119.804,313.505,119.804,216.78z"></path>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path class="sidebar_submit_glass" fill="#FFFFFF" d="M6.057,505.942c4.038,4.039,9.332,6.058,14.625,6.058s10.587-2.019,14.625-6.058L171.268,369.98
+                                                    c8.076-8.076,8.076-21.172,0-29.248c-8.076-8.078-21.172-8.078-29.249,0L6.057,476.693
+                                                    C-2.019,484.77-2.019,497.865,6.057,505.942z"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+
+                        <!-- Sidebar Archives -->
+                        <div class="sidebar_archives">
+                            <div class="sidebar_title">
+                                <h2>Archives</h2>
+                            </div>
+                            <div class="sidebar_list">
+                                <ul>
+                                    <li>
+                                        <a href="#">March 2024</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">April 2024</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">May 2024</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sidebar_categories">
+                            <div class="sidebar_title">
+                                <h2>Categories</h2>
+                            </div>
+                            <div class="sidebar_list">
+                                <ul>
+                                    <li>
+                                        <a href="#">Travel</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Exotic Destinations</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">City Breaks</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Travel Tips</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Lifestyle & Travel</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">City Breaks</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Uncategorized</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sidebar_latest-posts">
+                            <div class="sidebar_title">
+                                <h2>Latest Posts</h2>
+                            </div>
+                            <div class="sidebar_latest-posts-container">
+                                <ul>
+                                    <!-- Latest Post -->
+                                    <li class="latest_post clearfix">
+                                        <div class="sidebar_latest_item-img">
+                                            <a href="#">
+                                                <img src="/asset/images/News/latest_1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="sidebar_latest_item-description">
+                                            <a href="#">
+                                                A simple blog post
+                                            </a>
+                                            <span>by Jane Smith Aug 25, 2016</span>
+                                        </div>
+                                    </li>
+                                    <!-- Latest Post -->
+                                    <li class="latest_post clearfix">
+                                        <div class="sidebar_latest_item-img">
+                                            <a href="#">
+                                                <img src="/asset/images/News/latest_2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="sidebar_latest_item-description">
+                                            <a href="#">
+                                                Dream destination for you
+                                            </a>
+                                            <span>by Jane Smith Aug 25, 2016</span>
+                                        </div>
+                                    </li>
+                                    <!-- Latest Post -->
+                                    <li class="latest_post clearfix">
+                                        <div class="sidebar_latest_item-img">
+                                            <a href="#">
+                                                <img src="/asset/images/News/latest_3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="sidebar_latest_item-description">
+                                            <a href="#">
+                                                Tips to travel light
+                                            </a>
+                                            <span>by Jane Smith / Aug 25, 2016</span>
+                                        </div>
+                                    </li>
+                                    <!-- Latest Post -->
+                                    <li class="latest_post clearfix">
+                                        <div class="sidebar_latest_item-img">
+                                            <a href="#">
+                                                <img src="/asset/images/News/latest_4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="sidebar_latest_item-description">
+                                            <a href="#">
+                                                How to pick your vacation
+                                            </a>
+                                            <span>by Jane Smith Aug 25, 2016</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sidebar_Instagram">
+                            <div class="sidebar_title">
+                                <h2>Instagram</h2>
+                            </div>
+                            <div class="gallery_container">
+                               <ul class="gallery_items">
+                                <li class="gallery_item">
+                                    <a data-fancybox="gallery" href="/asset/images/other/offer-img.webp">
+                                        <img src="/asset/images/other/offer-img.webp" alt="">
+                                    </a>
+                                </li>
+                                <li class="gallery_item">
+                                    <a data-fancybox="gallery" href="/asset/images/other/offer-img2.webp">
+                                        <img src="/asset/images/other/offer-img2.webp" alt="">
+                                    </a>
+                                </li>
+                                <li class="gallery_item">
+                                    <a data-fancybox="gallery" href="/asset/images/other/offer-img3.webp">
+                                        <img src="/asset/images/other/offer-img3.webp" alt="">
+                                    </a>
+                                </li>
+                                <li class="gallery_item">
+                                    <a data-fancybox="gallery" href="/asset/images/other/offer-img4.webp">
+                                        <img src="/asset/images/other/offer-img4.webp" alt="">
+                                    </a>
+                                </li>
+                                <li class="gallery_item">
+                                    <a data-fancybox="gallery" href="/asset/images/offers/offer_5.jpg">
+                                        <img src="/asset/images/offers/offer_5.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="gallery_item">
+                                    <a data-fancybox="gallery" href="/asset/images/offers/offer_6.jpg">
+                                        <img src="/asset/images/offers/offer_6.jpg" alt="">
+                                    </a>
+                                </li>
+                               </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div id="footer">
+            <div class="footer_container">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-3 m-12 c-12 footer_column ">
+                            <div class="footer_body">
+                                <div class="footer_body_logo">
+                                    <a href="#" class="logo_link">
+                                        <img src="/asset/images/other/logo.png" alt="" class="footer_body_img">
+                                        TRAVELIX
+                                    </a>
+                                </div>
+                                <p class="footer_des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                                    quis vu lputate eros, iaculis consequat nisl. Nunc et suscipit urna. Integer eleme
+                                    ntum orci eu vehicula pretium.</p>
+                                <div class="social">
+                                    <ul class="social_list">
+                                        <li class="social_item footer_social_item">
+                                            <a href="#" class="social_list-link"><i
+                                                    class="fa-brands fa-pinterest social_list-icon footer_social_icon"></i></a>
+                                        </li>
+                                        <li class="social_item footer_social_item">
+                                            <a href="#" class="social_list-link"><i
+                                                    class="fa-brands fa-facebook-f social_list-icon footer_social_icon"></i></a>
+                                        </li>
+                                        <li class="social_item footer_social_item">
+                                            <a href="#" class="social_list-link"><i
+                                                    class="fa-brands fa-twitter social_list-icon footer_social_icon"></i></a>
+                                        </li>
+                                        <li class="social_item footer_social_item">
+                                            <a href="#" class="social_list-link"><i
+                                                    class="fa-brands fa-dribbble social_list-icon footer_social_icon"></i></a>
+                                        </li>
+                                        <li class="social_item footer_social_item">
+                                            <a href="#" class="social_list-link"><i
+                                                    class="fa-brands fa-behance social_list-icon footer_social_icon"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-12 c-12 footer_column ">
+                            <div class="footer_body">
+                                <h2 class="footer_body_blog_heading">Blog posts</h2>
+                                <div class="footer_body_content">
+                                    <div class="footer_body_content_blog">
+                                        <img src="/asset/images/other/blog-img.webp" alt=""
+                                            class="footer_body_content_blog-img">
+                                        <div class="footer_body_content-text">
+                                            <span>Travel with us this year</span>
+                                            <p>July 20, 2021</p>
+                                        </div>
+                                    </div>
+                                    <div class="footer_body_content_blog">
+                                        <img src="/asset/images/other/blog-img2.webp" alt=""
+                                            class="footer_body_content_blog-img">
+                                        <div class="footer_body_content-text">
+                                            <span>New destinations for you</span>
+                                            <p>July 20, 2021</p>
+                                        </div>
+                                    </div>
+                                    <div class="footer_body_content_blog">
+                                        <img src="/asset/images/other/blog-img3.webp" alt=""
+                                            class="footer_body_content_blog-img">
+                                        <div class="footer_body_content-text">
+                                            <span>Travel with us this year </span>
+                                            <p>July 20, 2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-12 c-12 footer_column ">
+                            <div class="footer_body">
+                                <h2 class="footer_body_blog_heading">Tags</h2>
+                                <div class="footer_body_content">
+                                    <ul class="footer_body_tags_content">
+                                        <li>
+                                            <a href="#">design</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">fashion</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">music</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">video</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">party</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">photography</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">adventure</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">travel</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-12 c-12 footer_column ">
+                            <div class="footer_body">
+                                <h2 class="footer_body_blog_heading">contact info</h2>
+                                <div class="footer_body_content">
+                                    <div class="footer_contact_body_address">
+                                        <div class="footer_contact_body-img">
+                                            <img src="/asset/images/other/placeholder.svg" alt="">
+                                        </div>
+                                        <span class="footer_contact_info footer_contact_address">
+                                            Le Trong Tan, District Tan Phu, TP.Ho Chi Minh
+                                        </span>
+                                    </div>
+
+                                    <div class="footer_contact_body_number">
+                                        <div class="footer_contact_body-img">
+                                            <img src="/asset/images/other/phone-call.svg" alt="">
+                                        </div>
+                                        <span class="footer_contact_info footer_contact_number">+84 832 156 741</span>
+                                    </div>
+
+                                    <div class="footer_contact_body_email">
+                                        <div class="footer_contact_body-img">
+                                            <img src="/asset/images/other/message.svg" alt="">
+                                        </div>
+                                        <span
+                                            class="footer_contact_info footer_contact_gmail">hongdyong990@gmail.com</span>
+
+                                    </div>
+
+                                    <span class="footer_contact_info footer_contact_github">
+                                        <a href="https://github.com/ThaiDuonggggg">
+                                            <i class="fa-brands fa-github icon_info"></i>
+                                            github.com/ThaiDuonggggg
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copy right -->
+        <div class="copy-right">
+            <div class="grid wide">
+                <div class="copy-right-container">
+                    <div class="row">
+                        <div class="col l-3 m-12">
+                            <div class="footer_body_info">
+                                <p>Copyright ©2024 All rights reserved | This template is made with by <i
+                                        class="fa-regular fa-heart"></i> <a
+                                        href="https://www.facebook.com/profile.php?id=100010982169375">Thai Duong</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col l-9 m-0 c-0">
+                            <div class="footer_navbar">
+                                <ul class="footer_navbar_list">
+                                    <li><a href="/index.html" class="footer_navbar_item-link">Home</a></li>
+                                    <li><a href="/asset/pages/aboutus/aboutus.html"
+                                            class="footer_navbar_item-link">About us</a></li>
+                                    <li><a href="#" class="footer_navbar_item-link">Offers</a></li>
+                                    <li><a href="#" class="footer_navbar_item-link">News</a></li>
+                                    <li><a href="#" class="footer_navbar_item-link">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/asset/javascript/main.js"></script>
+</body>
+
+</html>

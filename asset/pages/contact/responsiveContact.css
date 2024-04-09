@@ -1,0 +1,53 @@
+/*Mobile & Tablet*/
+@media (max-width: 1023px) {
+    .about_image {
+        text-align: center;
+        width: 100%;
+    }
+
+    .about_image img {
+        position: unset;
+    }
+
+    .about_content {
+        margin-top: 20px
+    }
+}
+
+
+/*Mobile*/
+@media (max-width: 739px) {
+    .about_image img {
+        max-width: 57vw;
+    }
+
+    .about_logo a {
+        font-size: 1.6rem;
+    }
+
+    .about_logo a img {
+        width: 16px;
+        vertical-align: baseline;
+    }
+    .about_content,
+    .about_info {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .about_description p {
+        font-size: 1.3rem;
+    }
+
+    .about_social_item {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1023px) {
+
+
+}

@@ -1,0 +1,294 @@
+/*custom css*/
+.icon_glass .sidebar_submit_glass {
+    fill: var(--yellow);
+}
+/*custom css*/
+
+.home_background {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/asset/images/News/blog_background.jpg');
+    padding-top: 46%;
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.home_title h1:nth-child(1) {
+    font-size: 7.2rem;
+    text-shadow: 1px 1px RGBA( 211, 211, 211, 1);
+}
+
+.blog {
+    padding-top: 108px;
+    padding-bottom: 108px;
+}
+
+.blog_container_destinations {
+    margin-bottom: 74px;
+}
+
+.blog_container_destinations_container {
+    position: relative;
+}
+
+.blog_container_destinations-img img{
+    width: 100%;
+}
+
+.blog_container_destinations-day {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 114px;
+    height: 70px;
+    background-color: var(--yellow);
+    color: var(--white);
+    border-radius: 37px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog_container_destinations-day span:first-child {
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.blog_container_destinations-day span:last-child {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.blog_container_destinations-cmt {
+    margin-top: 32px;
+}
+
+.blog_container_destinations-cmt ul li {
+    display: inline-block;
+    margin-right: 27px;
+    position: relative;
+}
+
+.blog_container_destinations-cmt ul li::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 12px;
+    border-right: 2px solid #929191;
+    top: 7px;
+    right: -14px;
+}
+
+.blog_container_destinations-cmt ul li:last-child::after {
+    display: none;
+}
+
+.blog_container_destinations-cmt ul li a {
+    font-size: 1.2rem;
+    color: var(--text-gray);
+    font-weight: 600;
+}
+
+.blog_container_destinations-cmt ul li a:hover {
+    color: var(--text-black);
+}
+
+.blog_container_destinations-heading {
+    margin-top: 5px;
+}
+
+.blog_container_destinations-link {
+    margin-top: 5px;
+}
+
+.blog_container_destinations-link a p{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--text-black);
+    transition: all 0.2s ease;
+    line-height: 1.34;
+}
+
+.blog_container_destinations-link a p:hover {
+    color: var(--yellow);
+}
+
+.blog_container_destinations-description {
+    margin-top: 19px;
+}
+
+.blog_container_destinations-description p {
+    font-size: 1.4rem;
+    color: var(--text-gray);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 2.14;
+}
+
+.blog_post_link {
+    margin-top: 32px;
+}
+
+.blog_container_destinations--read-more {
+    font-size: 1.4rem;
+    color: var(--yellow);
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 200ms ease;
+}
+
+.blog_container_destinations--read-more:hover {
+    color: #361f5d;
+}
+
+/*Sidebar*/
+.sidebar_search {
+    width: 100%;
+    position: relative;
+}
+
+.sidebar_search-input {
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 2px solid #e6e7f4;
+    font-size: 1.4rem;
+    color: var(--text-black);
+    font-weight: 600;
+}
+
+.sidebar_search-input::placeholder {
+    font-size: 1.4rem;
+    color: var(--text-gray);
+}
+
+.sidebar_submit {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.sidebar_archives,
+.sidebar_Instagram {
+    margin-top: 94px;
+}   
+
+.sidebar_title h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #404551;
+}
+
+.sidebar_list {
+    margin-top: 40px;
+}
+
+.sidebar_list ul {
+    list-style: none;
+}
+
+.sidebar_list li:not(:last-child) {
+    margin-bottom: 19px;
+}
+
+.sidebar_list li a {
+    font-size: 1.4rem;
+    color: var(--text-gray);
+    font-weight: 600;
+}
+
+.sidebar_list li a:hover {
+    color: var(--text-black);
+}
+
+.sidebar_categories,
+.sidebar_latest-posts {
+    margin-top: 89px;
+}
+
+.sidebar_latest-posts-container {
+    margin-top: 35px;
+}
+
+.sidebar_latest-posts-container ul {
+    list-style: none;
+}
+
+.sidebar_latest-posts-container ul li {
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.clearfix::before {
+    content: "";
+    clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+}
+
+.sidebar_latest_item-description {
+    padding-left: 25px;
+}
+
+.sidebar_latest_item-description a {
+    display: block;
+    color: var(--text-black);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sidebar_latest_item-description a:hover {
+    color: var(--yellow);
+}
+
+.sidebar_latest_item-description span {
+    display: block;
+    margin-top: 3px;
+    font-size: 1.2rem;
+    color: var(--text-gray);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sidebar_latest_item-description span:hover {
+    color: var(--text-black);
+}
+
+/* gallery */
+.gallery_container {
+    margin-top: 34px;
+}
+
+.gallery_items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+}
+
+.gallery_item {
+    width: calc((100% - 18px) / 3);
+    margin-bottom: 9px;
+}
+
+.gallery_item a {
+    text-decoration: none;
+
+}
+
+.gallery_item img {
+    width: 100%;
+}
