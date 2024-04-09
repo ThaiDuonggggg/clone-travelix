@@ -215,7 +215,7 @@
 .home_background {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url('/asset/images/slider/home_slider.jpg');
+    background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url('../images/slider/home_slider.jpg');
     padding-top: 46%;
     background-position: center center;
     background-size: cover;
