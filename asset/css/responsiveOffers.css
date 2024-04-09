@@ -6,13 +6,11 @@
     }
 }
 
-
 /*Mobile*/
 @media (max-width: 739px) {
     .home_title_mobile h1:nth-child(1) {
         font-size: 2.5rem;
     }
-
 
     .form_checked_item {
         width: 49%;
